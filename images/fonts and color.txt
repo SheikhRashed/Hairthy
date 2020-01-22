@@ -1,0 +1,10 @@
+Fonts:
+=========================
+Footer: Roboto
+Body: Segoe UI(Bootstrap Default fonts);
+
+
+color:
+==========================
+Body bg: #F3F1EF;
+Footer bg: #2E2D2C;

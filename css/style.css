@@ -26,6 +26,7 @@ body {
   background: #fff;
   font-family: 'Roboto', sans-serif;
 }
+
 /* basic css end */
 
 /* common css start */
@@ -85,19 +86,21 @@ h3 {
   line-height: 1.143;
   text-align: center;
 }
-
+ body {
+   overflow-x: hidden;
+ }
 
 /*// end of common css */
 
 /* main css start */
-
 /* header part start */
 /* header part end */
-
 /* banner part start */
 #banner {
-  background: url(../images/background\ img.jpg) center center/cover no-repeat;
-  padding: 180px 0px;
+  background: url(../images/background.png) center center/cover no-repeat;
+  /* padding: 180px 0px; */
+  height: 100vh;
+  position: relative;
 }
 #banner .brand-img {
   margin-bottom: 30px;
@@ -107,7 +110,12 @@ h3 {
   letter-spacing: 6px;
   color: #fff;
 }
-
+#banner .banner-content {
+ position: absolute;
+ top: 20%;
+ left: 50%;
+ transform: translate(-50%);
+}
 #banner .banner-content .ban-heading {
   font-size: 36px;
   color: #fff;
@@ -117,3 +125,30 @@ h3 {
   color: #fff;
 }
 /* banner part end */
+
+/* Brosse part start */
+#Brosse .product-details {
+  padding-right: 150px;
+  margin-top: 88px;
+}
+
+#Brosse .section-head h2 {
+  text-transform: uppercase;
+  font-size: 42px;
+  font-weight: bold;
+}
+
+#Brosse .section-head p {
+  font-size: 24px;
+}
+
+#Brosse .product-details p {
+  line-height: 36px;
+  font-size: 18px;
+}
+
+#Brosse .s-btn button {
+  padding: 6px 50px;
+  margin-right: 20px;
+}
+/* Brosse part end */

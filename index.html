@@ -18,7 +18,7 @@
  <section id="header">
   <na class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-      <a class="navbar-brand" href="#">HAIRTHY</a>
+      <a class="navbar-brand" href="#"><img src="./images/logo_black.png" alt=""></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -42,16 +42,17 @@
 </section>
  <!-- Header part end -->
 
+
  <!-- Banner part start -->
  <section id="banner">
     <div class="container">
-      <div class="brand-img row">
-       <div class="col-md-12 text-center">
-        <span>HAIRTHY</span>
-       </div>
-      </div>
-      <div class="row banner-content">
-       <div class="col-md-12 text-center">
+      <div class="row">
+       <div class="col-md-12 text-center banner-content">
+        <div class="brand-img">
+          <div class="col-md-12 text-center">
+           <img src="images/logo_large.png" alt="Logo_large" class="w-50">
+          </div>
+         </div>
         <h2 class="ban-heading">
           UNE MEILLEURE SANTE CAPILLAIRE
         </h2>
@@ -74,13 +75,19 @@
       <p>utilisez la brosse hairthy pour faire perdurer la sante de vos cheveux</p>
     </div>
 
-    <div class="row abt-product mt-5">
+    <div class="row abt-product">
       <div class="col-md-6 product-img">
-          <img src="./images/brush.jpg" alt="Brush" width="300px">
+          <img src="./images/Brush.png" alt="Brush">
       </div>
       <div class="col-md-6 product-details">
         <p>Accompagnez votre brossage quotidien avec un assistant de sante capillaire pour un meilleur resultat sur le long terme</p><br><br>
         <p>Hairthy est composee de plusieurs elements qui vouse aideront lors de votre preparation habituelle.</p>
+
+        <div class="s-btn">
+          <button type="button" class="btn btn-dark">Acheter</button>
+          <span>Prix: 199 <sup>€
+99          </sup></span>
+        </div>
       </div>
     </div>
   </div>
@@ -92,17 +99,17 @@
   <div class="container">
     <div class="row main-feautres">
       <div class="col-md-4 col-sm-6 pb-4 wow fadeInUp">
-        <div class="icon  "><img src="images/service/icon-1.png" alt="icon" class="img-fluid"></div>
+        <div class="icon"><img src="images/mic.png" alt="icon"></div>
         <div class="h6 ">microphone</div>
         <p>Enregistre la frequence sonore produite par vos cheveux lors du brossage pour definir i etate de votre chevelure.</p>
       </div>
       <div class="col-md-4 col-sm-6 pb-4 wow fadeInUp">
-        <div class="icon"><img src="images/service/icon-2.png" alt="icon" class="img-fluid"></div>
+        <div class="icon"><img src="images/wifi.png" alt="wifi"></div>
         <div class="h6">capteurs</div>
         <p>Definir en temps reel I'humidite et la force appliquee pendant votre mise en beaute.</p>
       </div>
       <div class="col-md-4 col-sm-6 pb-4 wow fadeInUp">
-        <div class="icon"><img src="images/service/icon-3.png" alt="icon" class="img-fluid"></div>
+        <div class="icon"><img src="images/charge.png" alt="charge"></div>
         <div class="h6">rechargeable</div>
         <p>Autonomie de 15 heures et recharge rapide en moins de 2 heures. La brosse est accompagnee d'un socle de recharge.</p>
       </div>
@@ -128,7 +135,7 @@
 
       
       <div class="col-md-6 product-img">
-        <img src="./images/brush.jpg" alt="Brush" width="300px">
+        <img src="./images/mobile.png" alt="Brush" width="300px">
     </div>
     </div>
   </div>
@@ -140,17 +147,17 @@
   <div class="container">
     <div class="row main-feautres">
       <div class="col-md-4 col-sm-6 pb-4 wow fadeInUp">
-        <div class="icon  "><img src="images/service/icon-1.png" alt="icon" class="img-fluid"></div>
+        <div class="icon  "><img src="images/search.png" alt="icon" class="img-fluid"></div>
         <div class="h6 ">analyse capilaire</div>
         <p>L'analyse des cheveux indique I'etatt et le type de cheveux que vouse possedez.</p>
       </div>
       <div class="col-md-4 col-sm-6 pb-4 wow fadeInUp">
-        <div class="icon"><img src="images/service/icon-2.png" alt="icon" class="img-fluid"></div>
+        <div class="icon"><img src="images/dashboard.png" alt="icon" class="img-fluid"></div>
         <div class="h6">modes de brossage</div>
         <p>le choix du mode de brossage le plus adapte pour vos cheveux.</p>
       </div>
       <div class="col-md-4 col-sm-6 pb-4 wow fadeInUp">
-        <div class="icon"><img src="images/service/icon-3.png" alt="icon" class="img-fluid"></div>
+        <div class="icon"><img src="images/flowchart.png" alt="icon" class="img-fluid"></div>
         <div class="h6">graphique</div>
         <p>Evolution de votre sante capillaire avec une courbe sur le duree d'utillisation.</p>
       </div>
@@ -159,21 +166,31 @@
 </section>
 <!-- Features section end -->
 
+<!-- Newsletter section start -->
+<section id="newsletter">
+  <div class="container">
+    <div class="row store justify-content-center">
+      <div class="col-6"><img src="./images/google.png" alt="playstore" class="text-right"></div>
+      <div class="col-6 "><img src="./images/apple.png" alt="applestore"></div>
+    </div>
+  </div>
+</section>
+<!-- Newsletter section end -->
 
 <!-- Footer section start -->
-<footer class="pt-5">
+<footer class="pt-5 bg-dark">
   <div class="container">
     <div class="f-top row">
-      <div class="col-md-4">
-        <img src="" alt="">
+      <div class="col-md-5">
+        <img src="./images/logo-white.png" alt="">
         <!-- social icon will goes here -->
-        <div class="row">
+        <div class="row pl-2 mt-4">
           <!-- instagram -->
-          <div class="col-4"></div>
+          <div class="col-auto"><img src="./images/instagram.png" alt="instagram" class="img-fluid"></div>
           <!-- facebook -->
-          <div class="col-4"></div>
+          <div class="col-auto"><img src="./images/facebook.png" alt="facebook" class="img-fluid"></div>
           <!-- twitter -->
-          <div class="col-4"></div>
+          <div class="col-auto"><img src="./images/twitter.png" alt="twitter" class="img-fluid"></div>
         </div>
       </div>
       <div class="col-md-4">
@@ -183,7 +200,7 @@
         <p>Cookies</p>
         <p>Texes surpofmea</p>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-3">
         <h2 class="mb-2">Qui sommes-nous?</h2>
         <p>communique de preosa</p>
         <p>Maribona idgalea</p>
@@ -191,13 +208,13 @@
       </div>
     </div>
     <div class="f-bottom row mt-5">
-      <div class="col-md-4"></div>
+      <div class="col-md-5"></div>
       <div class="col-md-4">
         <h2 class="mb-2">Nos Services</h2>
         <p>Maysona dio plaement</p>
         <p>Gudea dAchat</p>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-3">
         <h2 class="mb-2">Aide</h2>
         <p>Nous contactor</p>
         <p>FAQ</p>
